@@ -1,0 +1,23 @@
+@import './variable.scss';
+html {
+  font-size: 100px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 0.15rem;
+  color: $primary_text;
+  background-color: $background;
+}
+::placeholder {
+  color: $primary_text;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
